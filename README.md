@@ -16,7 +16,7 @@ Between GPIO2 and GND. Not only LED but also registor should be applied.
 # Run this Image
 
 ```
-docker run -it --privileged --name rpi-node-blink hisashin/rpi-node-blink:latest
+docker run -it --privileged --name rpi-node-blink hisashin/rpi-node-blink
 ```
 
 After a while, it will start blinking. Edit /blink.js to change intervals and more.
