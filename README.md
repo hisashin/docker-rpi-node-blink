@@ -3,7 +3,7 @@
 * Setup Docker on Raspberry Pi
 * Connect LED between GPIO2 and GND
 * Run This Image
-* Get error?
+* Got some busy error?
 
 # Setup Docker on Raspberry Pi
 
@@ -21,7 +21,7 @@ docker run -it --privileged --name rpi-node-blink hisashin/rpi-node-blink:latest
 
 After a while, it will start blinking. Edit /blink.js to change intervals and more.
 
-# Get error?
+# Got some busy error?
 
 Shutdown sequence in /start.sh seems not working perfectly. Additionally run this command to release GPIO when you stop.
 
