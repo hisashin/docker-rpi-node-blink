@@ -7,7 +7,7 @@
 
 # Setup Docker on Raspberry Pi
 
-Refer [my another project](https://github.com/hortinstein/node-dash-button)
+Refer [my another project](https://github.com/hisashin/rpi-node-dash-button)
 
 # Connect LED
 
